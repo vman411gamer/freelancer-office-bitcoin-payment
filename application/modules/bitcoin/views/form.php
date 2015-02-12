@@ -4,10 +4,7 @@
 		</div>		
 		<div class="modal-body">
 <?php
-			 $attributes = array('id'=>'payment-form','class' => 'bs-example form-horizontal');
-          /*echo form_open('bitcoin/send',$attributes);*/ ?>
-
-		<?php // Show PHP errors, if they exist:
+		$attributes = array('id'=>'payment-form','class' => 'bs-example form-horizontal');
 		function curl_get_contents($url)
 		{
 			$ch = curl_init();
